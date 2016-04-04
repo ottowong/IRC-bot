@@ -12,7 +12,7 @@ chanpass = "CHANNELPASSWORD"
 irc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print "connecting to:"+server
 irc.connect((server, 6667))
-irc.send("USER "+ botnick +" "+ botnick +" "+ botnick +" :desu\n")
+irc.send("USER "+ botnick +"\n")
 irc.send("NICK "+ botnick +"\n")
 irc.send("PRIVMSG nickserv :iNOOPE\r\n")
 irc.send("PRIVMSG nickserv :identify PASSWORD\n")
