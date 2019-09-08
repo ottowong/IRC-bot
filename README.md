@@ -1,1 +1,1 @@
-# IRC-archive-bot
+# IRC-bot
